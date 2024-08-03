@@ -3,7 +3,7 @@ This project focuses on detecting arrhythmias from ECG signals using a Convoluti
 
 <br/>
 
-Introduction
+## Introduction
 
 Electrocardiogram (ECG) signals are essential for diagnosing heart conditions, including arrhythmias. This project uses deep learning to automatically classify different types of arrhythmias from ECG signals.
 
@@ -15,7 +15,7 @@ The dataset used in this project contains ECG signals that have been labeled wit
 
 <br/>
 
-Preprocessing
+## Preprocessing
 
 The preprocessing steps include:
 
@@ -25,7 +25,7 @@ Converting labels to one-hot encoded vectors.
 
 <br/>
 
-Model Architecture
+## Model Architecture
 
 The model is a Convolutional Neural Network (CNN) designed to capture features from the ECG signals:
 
@@ -43,12 +43,12 @@ Dense Layers: Fully connected layers leading to a softmax output.
 
 <br/>
 
-Training
+## Training
 
 The model is trained using the Adam optimizer and categorical crossentropy loss function. The training is conducted over multiple epochs, and the performance is monitored using accuracy metrics.
 
 <br/>
 
-Results
+## Results
 
 The results section reports the accuracy and other metrics achieved by the model. Additionally, visualizations such as confusion matrices or ROC curves can be included here.
