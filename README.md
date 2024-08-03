@@ -9,7 +9,7 @@ Electrocardiogram (ECG) signals are essential for diagnosing heart conditions, i
 
 <br/>
 
-Dataset
+## Dataset
 
 The dataset used in this project contains ECG signals that have been labeled with different types of arrhythmias. The data is split into training and testing sets to evaluate the model's performance.
 
